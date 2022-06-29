@@ -1,0 +1,67 @@
+.page{
+    width: 90%;
+    background: #007991;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #f5bc96, #c5eaf1);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #eb9e99, #798b8f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    border: 2px solid rgb(255, 252, 252);
+    box-shadow: 0 4px 8px 0 rgba(248, 246, 246, 0.2);
+  transition: 0.3s;
+}
+
+.page:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.name{
+  margin-left: 40%;
+}
+
+.email{
+  margin-left: 40%;
+  font-size: small;
+}
+
+.phone{
+  margin-left: 40%;
+  font-size: small;
+}
+
+.address{
+  margin-left: 40%;
+  font-size: small;
+}
+
+
+.objective{
+  font-family: 'Lato', sans-serif;
+}
+
+.c-obj{
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  font-size: medium;
+}
+
+.btn{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+
+  cursor: pointer;
+}
+
+.btn:hover{
+  background-color: red;
+  transition-duration: 1s;
+}
+
+
+.mb5{
+  margin-left: 30%;
+  padding: 1rem;
+}
