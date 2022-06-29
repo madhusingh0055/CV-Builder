@@ -1,25 +1,25 @@
 .col-sm-6 {
-    float: left;
-    width: 50%;
-   
-  }
-  
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
+  float: left;
+  width: 50%;
 
- .row{
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row {
   padding: 1rem;
- }
+}
 
-.text{
+.text {
   width: 60%;
 }
 
-.heading{
+.heading {
   margin-left: 40%;
   font-family: 'Lato', sans-serif;
   color: white;

@@ -9,33 +9,33 @@ import HomeIcon from '@mui/icons-material/Home';
 
 const Resume = (props) => {
 
-   
-   function printDocument() {
+
+    function printDocument() {
         const input = document.getElementById('divToPrint');
         html2canvas(input)
-          .then((canvas) => {
-            const imgData = canvas.toDataURL('image/png');
-            const pdf = new jsPDF();
-            pdf.addImage(imgData, 'JPEG', 0, 0);
-            // pdf.output('dataurlnewwindow');
-            pdf.save("download.pdf");
-          })
-        ;
-      }
+            .then((canvas) => {
+                const imgData = canvas.toDataURL('image/png');
+                const pdf = new jsPDF();
+                pdf.addImage(imgData, 'JPEG', 0, 0);
+                // pdf.output('dataurlnewwindow');
+                pdf.save("download.pdf");
+            })
+            ;
+    }
 
 
     return (
         <>
 
-<div className="mb5">
-        <button onClick={printDocument} className="btn" >Print</button>
-      </div>
+            <div className="mb5">
+                <button onClick={printDocument} className="btn" >Print</button>
+            </div>
             <div id="divToPrint" className='page'>
 
                 <h1 className="name">{props.name}</h1>
-                <p className="email"><MailIcon  style={{fontSize: 'small'}}/> {props.email}</p>
-                <p className="phone"> <ContactPhoneIcon  style={{fontSize: 'small'}} /> {props.phoneNumber}</p>
-                <p className="address"><HomeIcon style={{fontSize: 'small'}} /> {props.address} - {props.zipCode}</p>
+                <p className="email"><MailIcon style={{ fontSize: 'small' }} /> {props.email}</p>
+                <p className="phone"> <ContactPhoneIcon style={{ fontSize: 'small' }} /> {props.phoneNumber}</p>
+                <p className="address"><HomeIcon style={{ fontSize: 'small' }} /> {props.address} - {props.zipCode}</p>
                 <p className="c-obj">Career Objective </p>
                 <hr />
                 <p className="objective">{props.objective}</p>
@@ -52,12 +52,12 @@ const Resume = (props) => {
                 <p className="c-obj"> Achievement </p>
                 <hr />
                 <p className="objective">{props.achievement}</p>
-                
+
                 <p className="c-obj"> Hobbies </p>
                 <hr />
                 <p className="objective">{props.Hobbies}</p>
-                
-                
+
+
             </div>
         </>
     )
