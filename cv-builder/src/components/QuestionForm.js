@@ -22,7 +22,7 @@ const QuestionForm = () => {
     return (
         <>
            <div>
-            <h1>Resume Generator</h1>
+            <h1 className="heading">Resume Generator</h1>
            </div>
             <div className="row">
 

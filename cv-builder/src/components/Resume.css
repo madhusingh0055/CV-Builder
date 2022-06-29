@@ -2,7 +2,7 @@
     width: 90%;
     background: #007991;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #f5bc96, #c5eaf1);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #eb9e99, #798b8f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: linear-gradient(to right, #e4bdbb, #e3ecee); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
     border: 2px solid rgb(255, 252, 252);
     box-shadow: 0 4px 8px 0 rgba(248, 246, 246, 0.2);
@@ -35,12 +35,15 @@ background: linear-gradient(to right, #eb9e99, #798b8f); /* W3C, IE 10+/ Edge, F
 
 .objective{
   font-family: 'Lato', sans-serif;
+  margin-left: 4%;
+  margin-right: 2%;
 }
 
 .c-obj{
   font-family: 'Lato', sans-serif;
   font-weight: bold;
   font-size: medium;
+  margin-left: 1.5%;
 }
 
 .btn{
