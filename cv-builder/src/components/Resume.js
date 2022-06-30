@@ -58,6 +58,8 @@ const Resume = (props) => {
                 <p className="objective">{props.Hobbies}</p>
 
 
+             
+
             </div>
         </>
     )

@@ -79,7 +79,7 @@ const QuestionForm = () => {
                     <br /> <br />
 
 
-                    <TextField id="outlined-basic" label="Education" variant="outlined" value={Hobbies}
+                    <TextField id="outlined-basic" label="Hobbies" variant="outlined" value={Hobbies}
                         onChange={(e) => setHobbies(e.target.value)} className="text" />
                 </div>
 
